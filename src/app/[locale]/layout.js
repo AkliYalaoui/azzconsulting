@@ -1,9 +1,7 @@
 import { Nunito } from "next/font/google";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
-import "./globals.css";
+import "../globals.css";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -22,9 +20,7 @@ export async function generateMetadata({ params }) {
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
+  console.log(locale);
   return (
     <html lang={locale}>
       <body className={`${nunito.variable}`}>
