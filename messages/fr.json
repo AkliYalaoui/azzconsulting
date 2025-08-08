@@ -264,8 +264,16 @@
             "button": "Contactez-nous"
         }
     },
-    "BlogsPage": {
-        "title": "Blog Finance",
-        "description": "Découvrez nos derniers articles et conseils financiers."
+    "BlogPage": {
+        "title": "Blog",
+        "searchPlaceholder": "Recherche...",
+        "allTags": "Toutes les catégories",
+        "newest": "Les plus récents",
+        "oldest": "Les plus anciens",
+        "noResults": "Aucun article trouvé.",
+        "tags": {
+            "finance": "Finance",
+            "risk": "Risque"
+        }
     }
 }

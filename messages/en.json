@@ -264,8 +264,16 @@
             "button": "Contact Us"
         }
     },
-    "BlogsPage": {
-        "title": "Finance Blog",
-        "description": "Discover our latest articles and financial advice."
+    "BlogPage": {
+        "title": "Blog",
+        "searchPlaceholder": "Search...",
+        "allTags": "All Tags",
+        "newest": "Newest First",
+        "oldest": "Oldest First",
+        "noResults": "No blog posts found.",
+        "tags": {
+            "finance": "Finance",
+            "risk": "Risk"
+        }
     }
 }
