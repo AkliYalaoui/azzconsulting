@@ -3,8 +3,269 @@
         "title": "Azz Consulting",
         "description": "Azz Consulting est une société de conseil qui fournit des services dans divers domaines."
     },
+    "Navbar": {
+        "home": "AzzConsulting",
+        "consulting": "Conseils",
+        "contact": "Contact",
+        "training": "Formations",
+        "blogs": "Blogs"
+    },
+    "Footer": {
+        "brand": "FinanceExpert",
+        "description": "Conseils financiers, formations et accompagnement pour votre réussite.",
+        "services": "Services",
+        "consulting": "Conseils",
+        "training": "Formations",
+        "blogs": "Blogs",
+        "support": "Support",
+        "contact": "Contact",
+        "privacyPolicy": "Politique de confidentialité",
+        "termsOfService": "Conditions d'utilisation",
+        "contactInfo": "Contact",
+        "email": "Email",
+        "phone": "Téléphone",
+        "address": "123 Rue de la Finance, Paris, France",
+        "copyright": "Tous droits réservés."
+    },
     "HomePage": {
-        "title": "Bonjour le monde!",
-        "about": "Aller à la page à propos"
+        "title": "Conseil en Finance Pro",
+        "about": {
+            "title": "Qui suis-je ?",
+            "description": "Avec plus de 20 ans d’expérience, j’aide institutions financières, universités et centres de formation à naviguer les défis de la finance de marché, des risques et de la réglementation avec rigueur et impact.",
+            "cta": "Découvrir mes services",
+            "experience": {
+                "title": "Expérience reconnue",
+                "desc": "Plus de 20 ans dans la finance de marché, le conseil et la formation aux plus hauts niveaux."
+            },
+            "markets": {
+                "title": "Expertise approfondie",
+                "desc": "Maîtrise des risques de crédit, de marché, réglementaires (ACM), produits dérivés et gestion d’actifs."
+            },
+            "pedagogy": {
+                "title": "Approche pédagogique",
+                "desc": "Transfert de savoirs complexes avec clarté : formations sur mesure pour universités et professionnels."
+            }
+        },
+        "hero": {
+            "title": "Dépasser les bons et atteindre l’excellence",
+            "subtitle": "Accompagnement stratégique en gestion des risques financiers pour institutions exigeantes. Plus de 20 ans d'expertise en finance de marché et réglementation.",
+            "cta": "Demander une consultation"
+        },
+        "consulting": {
+            "title": "Conseils experts en finance",
+            "preview": "Accompagnement sur mesure en finance de marché, gestion des risques et conformité.",
+            "marketFinanceTitle": "Finance de marché",
+            "marketFinanceDesc": "Structuration de produits financiers, pricing, valorisation et couverture.",
+            "creditRiskTitle": "Risque de crédit",
+            "creditRiskDesc": "Modèles internes, notation, stress tests et gestion des expositions.",
+            "regulatoryRiskTitle": "Risque réglementaire",
+            "regulatoryRiskDesc": "Conformité réglementaire (Bâle, CRR), reporting prudentiel et ICAAP.",
+            "learnMore": "En savoir plus"
+        },
+        "trainings": {
+            "title": "Formations & enseignement",
+            "preview": "Des formations d’excellence, adaptées aux universités, organismes et entreprises.",
+            "universityTitle": "Universités & Grandes écoles",
+            "universityDesc": "Cours magistraux et séminaires en finance quantitative, risques financiers et régulation.",
+            "institutesTitle": "Organismes de formation",
+            "institutesDesc": "Modules intensifs pour les professionnels de la finance, compliance et IT bancaire.",
+            "proTrainingTitle": "Formations en entreprise",
+            "proTrainingDesc": "Accompagnement des équipes internes avec des parcours sur mesure et cas concrets."
+        },
+        "blog": {
+            "title": "Blog & Actualités",
+            "preview": "Explorez nos analyses approfondies sur les enjeux de la finance moderne, les risques et les tendances réglementaires.",
+            "seeMore": "Voir tous les articles"
+        },
+        "stats": {
+            "title": "Quelques chiffres",
+            "experience": "Années d’expérience",
+            "clients": "Clients accompagnés",
+            "satisfaction": "Taux de satisfaction"
+        },
+        "contact": {
+            "title": "Contactez-nous",
+            "description": "Une question, un besoin d'accompagnement ou envie d’échanger sur un projet ? Notre équipe vous répond sous 24h.",
+            "cta": "Envoyer un message",
+            "ctaAppointment": "Prendre rendez-vous"
+        },
+        "seeMore": "Voir plus"
+    },
+    "ContactPage": {
+        "title": "Travaillons ensemble",
+        "subtitle": "Contactez-nous pour une consultation personnalisée ou simplement pour dire bonjour. Nous répondons généralement sous 24 heures.",
+        "form": {
+            "name": "Votre Nom",
+            "email": "Votre Email",
+            "subject": "Sujet",
+            "message": "Votre Message",
+            "submit": "Envoyer le Message",
+            "success": "Merci ! Votre message a été envoyé.",
+            "error": "Oups ! Une erreur s'est produite. Veuillez réessayer."
+        }
+    },
+    "ConsultingPage": {
+        "hero": {
+            "title": "Conseil en Finance Quantitative",
+            "subtitle": "Nous accompagnons les institutions financières à structurer, évaluer et optimiser leurs activités de marché.",
+            "cta": "Discutons ensemble"
+        },
+        "cta": {
+            "title": "Prêt à transformer votre gestion des risques ?",
+            "subtitle": "Notre approche sur mesure vous permet de piloter la performance financière avec rigueur et innovation.",
+            "button": "Nous contacter"
+        },
+        "expertise": {
+            "items": {
+                "common": {
+                    "useCases": "Cas d’usage",
+                    "kpis": "Indicateurs clés",
+                    "methodology": "Approche & méthodologie"
+                },
+                "marketFinance": {
+                    "title": "Finance de Marché",
+                    "summary": "La finance de marché englobe les activités de trading, structuration et valorisation de produits financiers. Elle exige une maîtrise fine des modèles mathématiques, des risques et des données temps réel.",
+                    "useCases": [
+                        "Optimisation des modèles de pricing (options, dérivés, produits structurés)",
+                        "Mise en place de desks de market making",
+                        "Audit des modèles de valorisation",
+                        "Support aux équipes front office dans l’analyse quantitative"
+                    ],
+                    "kpis": [
+                        "P&L (Profit & Loss) par produit",
+                        "Value at Risk (VaR)",
+                        "Greeks (Delta, Vega, Gamma)",
+                        "Liquidity ratio"
+                    ],
+                    "methodology": "Nous intervenons avec une double compétence quantitative et IT. Nos consultants s’intègrent aux équipes trading, risk ou IT pour développer des solutions robustes : librairies de pricing, outils de simulation de risque, ou prototypes de stratégie algorithmique."
+                },
+                "creditRisk": {
+                    "title": "Risque de Crédit",
+                    "summary": "Le risque de crédit concerne la capacité des contreparties à honorer leurs engagements financiers. La gestion rigoureuse de ce risque est vitale pour la stabilité des institutions et la conformité réglementaire.",
+                    "useCases": [
+                        "Modélisation de la probabilité de défaut (PD)",
+                        "Évaluation de l’exposition au défaut (EAD)",
+                        "Stress testing des portefeuilles de crédit",
+                        "Développement de scorecards de crédit"
+                    ],
+                    "kpis": [
+                        "Taux de défaut (Default Rate)",
+                        "Expected Loss (EL)",
+                        "Loss Given Default (LGD)",
+                        "Capital économique et réglementaire"
+                    ],
+                    "methodology": "Notre approche combine analyse statistique avancée, gestion des données et compréhension métier pour bâtir des modèles de risque robustes et transparents, adaptés aux exigences des régulateurs et des investisseurs."
+                },
+                "marketRisk": {
+                    "title": "Risque de Marché",
+                    "summary": "Le risque de marché provient des fluctuations défavorables des prix des actifs financiers. Il nécessite des outils sophistiqués de mesure et de gestion pour protéger le portefeuille contre la volatilité et les chocs externes.",
+                    "useCases": [
+                        "Calcul et reporting de la Value at Risk (VaR)",
+                        "Analyse de sensibilité et scénarios de stress",
+                        "Optimisation des couvertures (hedging)",
+                        "Suivi des limites de risque et backtesting"
+                    ],
+                    "kpis": [
+                        "Value at Risk (VaR)",
+                        "Expected Shortfall (ES)",
+                        "Sensibilité aux facteurs de marché",
+                        "Volatilité historique et implicite"
+                    ],
+                    "methodology": "Nous déployons des modèles stochastiques, simulations Monte Carlo et outils d’analyse quantitative pour aider nos clients à anticiper et réduire leur exposition au risque de marché."
+                },
+                "regulatoryRisk": {
+                    "title": "Risque Réglementaire",
+                    "summary": "Le risque réglementaire découle des évolutions constantes des normes et contraintes imposées aux institutions financières. La maîtrise de ce risque est clé pour assurer conformité, réputation et pérennité.",
+                    "useCases": [
+                        "Mise en conformité avec Bâle III et IV",
+                        "Analyse d’impact réglementaire",
+                        "Reporting réglementaire automatisé",
+                        "Gestion des données réglementaires"
+                    ],
+                    "kpis": [
+                        "Ratio de fonds propres (CET1)",
+                        "Rapports réglementaires soumis à temps",
+                        "Nombre d’incidents de non-conformité",
+                        "Coût de mise en conformité"
+                    ],
+                    "methodology": "Nous accompagnons la transformation réglementaire via la définition de processus, l’automatisation des reportings et la formation des équipes, garantissant ainsi un cadre opérationnel sécurisé et efficace."
+                },
+                "acmRisk": {
+                    "title": "Risque ACM (Assurance, Compliance, Management)",
+                    "summary": "Le risque ACM regroupe les risques liés à l’assurance, à la conformité et à la gestion opérationnelle. Il est essentiel de les anticiper pour protéger l’entreprise contre des impacts financiers et réputationnels.",
+                    "useCases": [
+                        "Évaluation des risques opérationnels",
+                        "Mise en place de dispositifs anti-fraude",
+                        "Audit des processus de conformité",
+                        "Analyse des sinistres et provisionnement"
+                    ],
+                    "kpis": [
+                        "Fréquence et gravité des sinistres",
+                        "Taux de conformité réglementaire",
+                        "Coût des risques opérationnels",
+                        "Délai de résolution des incidents"
+                    ],
+                    "methodology": "Nos experts combinent analyses qualitatives et quantitatives, accompagnés d’outils digitaux performants, pour anticiper les risques, renforcer les contrôles et optimiser la gouvernance d’entreprise."
+                }
+            }
+        }
+    },
+    "TrainingPage": {
+        "hero": {
+            "title": "Formation Expert pour Professionnels de la Finance",
+            "subtitle": "Restez en avance sur les tendances du secteur avec des formations pratiques et sur mesure en risque, réglementation et innovation financière.",
+            "cta": "Demander une formation"
+        },
+        "programs": {
+            "title": "Programmes de Formation",
+            "labels": {
+                "objectives": "Objectives",
+                "audience": "Audience",
+                "outcomes": "Expected Outcomes"
+            },
+            "items": {
+                "riskManagement": {
+                    "title": "Gestion des Risques",
+                    "description": "Maîtrisez les stratégies de risque de crédit, de marché et opérationnel alignées sur les normes internationales.",
+                    "objectives": "Développer des compétences pour évaluer, mesurer et atténuer les risques financiers avec des méthodologies éprouvées.",
+                    "audience": "Analystes risques, contrôleurs financiers, auditeurs internes, responsables conformité.",
+                    "outcomes": "Comprendre et appliquer les techniques avancées de gestion des risques en banque et finance."
+                },
+                "regulatoryCompliance": {
+                    "title": "Conformité Réglementaire",
+                    "description": "Comprendre Bâle III/IV, IFRS 9, ESG et autres réglementations critiques avec des applications concrètes.",
+                    "objectives": "Acquérir une connaissance approfondie des cadres réglementaires et de leur mise en œuvre efficace.",
+                    "audience": "Responsables réglementaires, auditeurs, directeurs financiers, professionnels de la conformité.",
+                    "outcomes": "Appliquer les règles de conformité avec assurance et aligner les opérations sur les normes légales."
+                },
+                "financialModeling": {
+                    "title": "Modélisation Financière",
+                    "description": "Développer des compétences pratiques en modélisation avec Excel, Python ou R pour appuyer les décisions en risque et finance.",
+                    "objectives": "Créer des modèles pour prévoir la performance, évaluer les risques et soutenir la planification stratégique.",
+                    "audience": "Analystes, professionnels de l'investissement, consultants, quants juniors.",
+                    "outcomes": "Construire des modèles robustes et automatiser les flux financiers pour des décisions plus rapides et meilleures."
+                },
+                "dataAnalytics": {
+                    "title": "Science des Données & Analytique",
+                    "description": "Utiliser la science des données et les outils de BI pour obtenir des insights sur la performance financière et l'exposition aux risques.",
+                    "objectives": "Transformer les données financières en insights business avec des outils analytiques modernes.",
+                    "audience": "Analystes de données, équipes finance, départements innovation, gestionnaires de risques.",
+                    "outcomes": "Utiliser la visualisation de données et l'analyse prédictive pour soutenir les initiatives stratégiques."
+                }
+            }
+        },
+        "outcomes": {
+            "title": "Ce que Vous Obtiendrez",
+            "description": "Que vous soyez analyste, manager ou dirigeant, notre formation vous apporte des cadres applicables, une compréhension approfondie et un avantage stratégique."
+        },
+        "cta": {
+            "title": "Prêt à Former Votre Équipe ?",
+            "subtitle": "Nous adaptons chaque session à votre contexte. Discutons-en.",
+            "button": "Contactez-nous"
+        }
+    },
+    "BlogsPage": {
+        "title": "Blog Finance",
+        "description": "Découvrez nos derniers articles et conseils financiers."
     }
 }

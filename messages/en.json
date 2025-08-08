@@ -1,10 +1,271 @@
 {
     "Metadata": {
         "title": "Azz Consulting",
-        "description": "Azz Consulting is a consulting company that provides services in various fields."
+        "description": "Azz Consulting is a consulting company providing services in various fields."
+    },
+    "Navbar": {
+        "home": "AzzConsulting",
+        "consulting": "Consulting",
+        "contact": "Contact",
+        "training": "Training",
+        "blogs": "Blogs"
+    },
+    "Footer": {
+        "brand": "FinanceExpert",
+        "description": "Financial advice, training, and support for your success.",
+        "services": "Services",
+        "consulting": "Consulting",
+        "training": "Training",
+        "blogs": "Blogs",
+        "support": "Support",
+        "contact": "Contact",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "contactInfo": "Contact",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "123 Finance Street, Paris, France",
+        "copyright": "All rights reserved."
     },
     "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page"
+        "title": "Professional Financial Consulting",
+        "about": {
+            "title": "Who am I?",
+            "description": "With over 20 years of experience, I help financial institutions, universities, and training centers navigate the challenges of market finance, risk, and regulation with rigor and impact.",
+            "cta": "Discover my services",
+            "experience": {
+                "title": "Recognized Experience",
+                "desc": "Over 20 years in market finance, consulting, and training at the highest levels."
+            },
+            "markets": {
+                "title": "Deep Expertise",
+                "desc": "Mastery of credit risk, market risk, regulatory (ACM), derivatives, and asset management."
+            },
+            "pedagogy": {
+                "title": "Pedagogical Approach",
+                "desc": "Transfer of complex knowledge with clarity: tailored training for universities and professionals."
+            }
+        },
+        "hero": {
+            "title": "Moving Beyond Good to Achieve Excellence",
+            "subtitle": "Strategic support in financial risk management for demanding institutions. Over 20 years of expertise in market finance and regulation.",
+            "cta": "Request a consultation"
+        },
+        "consulting": {
+            "title": "Expert Financial Consulting",
+            "preview": "Tailored support in market finance, risk management, and compliance.",
+            "marketFinanceTitle": "Market Finance",
+            "marketFinanceDesc": "Financial product structuring, pricing, valuation, and hedging.",
+            "creditRiskTitle": "Credit Risk",
+            "creditRiskDesc": "Internal models, rating, stress tests, and exposure management.",
+            "regulatoryRiskTitle": "Regulatory Risk",
+            "regulatoryRiskDesc": "Regulatory compliance (Basel, CRR), prudential reporting, and ICAAP.",
+            "learnMore": "Learn more"
+        },
+        "trainings": {
+            "title": "Training & Education",
+            "preview": "Excellence in training, adapted for universities, organizations, and companies.",
+            "universityTitle": "Universities & Business Schools",
+            "universityDesc": "Lectures and seminars in quantitative finance, financial risks, and regulation.",
+            "institutesTitle": "Training Organizations",
+            "institutesDesc": "Intensive modules for finance professionals, compliance, and banking IT.",
+            "proTrainingTitle": "Corporate Training",
+            "proTrainingDesc": "Supporting internal teams with customized programs and practical cases."
+        },
+        "blog": {
+            "title": "Blog & News",
+            "preview": "Explore our in-depth analyses on modern finance challenges, risks, and regulatory trends.",
+            "seeMore": "See all articles"
+        },
+        "stats": {
+            "title": "Key Figures",
+            "experience": "Years of Experience",
+            "clients": "Clients Served",
+            "satisfaction": "Satisfaction Rate"
+        },
+        "contact": {
+            "title": "Contact Us",
+            "description": "Have a question, need guidance, or want to discuss a project? Our team will respond within 24 hours.",
+            "cta": "Send a Message",
+            "ctaAppointment": "Schedule an Appointment"
+        },
+        "seeMore": "See more"
+    },
+    "ContactPage": {
+        "title": "Let's Work Together",
+        "subtitle": "Contact us for a personalized consultation or just to say hello. We typically respond within 24 hours.",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "submit": "Send Message",
+            "success": "Thank you! Your message has been sent.",
+            "error": "Oops! An error occurred. Please try again."
+        }
+    },
+    "ConsultingPage": {
+        "hero": {
+            "title": "Quantitative Finance Consulting",
+            "subtitle": "We help financial institutions structure, evaluate, and optimize their market activities.",
+            "cta": "Let's Discuss"
+        },
+        "cta": {
+            "title": "Ready to Transform Your Risk Management?",
+            "subtitle": "Our tailored approach enables you to drive financial performance with rigor and innovation.",
+            "button": "Contact Us"
+        },
+        "expertise": {
+            "items": {
+                "common": {
+                    "useCases": "Use Cases",
+                    "kpis": "Key Indicators",
+                    "methodology": "Approach & Methodology"
+                },
+                "marketFinance": {
+                    "title": "Market Finance",
+                    "summary": "Market finance encompasses trading, structuring, and valuation of financial products. It requires a fine mastery of mathematical models, risks, and real-time data.",
+                    "useCases": [
+                        "Optimization of pricing models (options, derivatives, structured products)",
+                        "Setting up market-making desks",
+                        "Audit of valuation models",
+                        "Support for front office teams in quantitative analysis"
+                    ],
+                    "kpis": [
+                        "P&L (Profit & Loss) per product",
+                        "Value at Risk (VaR)",
+                        "Greeks (Delta, Vega, Gamma)",
+                        "Liquidity ratio"
+                    ],
+                    "methodology": "We intervene with a dual quantitative and IT expertise. Our consultants integrate with trading, risk, or IT teams to develop robust solutions: pricing libraries, risk simulation tools, or algorithmic strategy prototypes."
+                },
+                "creditRisk": {
+                    "title": "Credit Risk",
+                    "summary": "Credit risk concerns the ability of counterparties to meet their financial commitments. Rigorous management of this risk is vital for the stability of institutions and regulatory compliance.",
+                    "useCases": [
+                        "Modeling of default probability (PD)",
+                        "Evaluation of exposure at default (EAD)",
+                        "Stress testing of credit portfolios",
+                        "Development of credit scorecards"
+                    ],
+                    "kpis": [
+                        "Default Rate",
+                        "Expected Loss (EL)",
+                        "Loss Given Default (LGD)",
+                        "Economic and regulatory capital"
+                    ],
+                    "methodology": "Our approach combines advanced statistical analysis, data management, and business understanding to build robust and transparent risk models, adapted to the requirements of regulators and investors."
+                },
+                "marketRisk": {
+                    "title": "Market Risk",
+                    "summary": "Market risk arises from unfavorable fluctuations in the prices of financial assets. It requires sophisticated measurement and management tools to protect the portfolio against volatility and external shocks.",
+                    "useCases": [
+                        "Calculation and reporting of Value at Risk (VaR)",
+                        "Sensitivity analysis and stress scenarios",
+                        "Optimization of hedging strategies",
+                        "Monitoring of risk limits and backtesting"
+                    ],
+                    "kpis": [
+                        "Value at Risk (VaR)",
+                        "Expected Shortfall (ES)",
+                        "Sensitivity to market factors",
+                        "Historical and implied volatility"
+                    ],
+                    "methodology": "We deploy stochastic models, Monte Carlo simulations, and quantitative analysis tools to help our clients anticipate and reduce their exposure to market risk."
+                },
+                "regulatoryRisk": {
+                    "title": "Regulatory Risk",
+                    "summary": "Regulatory risk stems from the constant evolution of standards and constraints imposed on financial institutions. Mastering this risk is key to ensuring compliance, reputation, and sustainability.",
+                    "useCases": [
+                        "Compliance with Basel III and IV",
+                        "Regulatory impact analysis",
+                        "Automated regulatory reporting",
+                        "Management of regulatory data"
+                    ],
+                    "kpis": [
+                        "CET1 capital ratio",
+                        "Timely submission of regulatory reports",
+                        "Number of non-compliance incidents",
+                        "Cost of compliance"
+                    ],
+                    "methodology": "We support regulatory transformation through process definition, reporting automation, and team training, ensuring a secure and efficient operational framework."
+                },
+                "acmRisk": {
+                    "title": "ACM Risk (Assurance, Compliance, Management)",
+                    "summary": "ACM risk encompasses risks related to insurance, compliance, and operational management. Anticipating these risks is essential to protect the company from financial and reputational impacts.",
+                    "useCases": [
+                        "Evaluation of operational risks",
+                        "Implementation of anti-fraud measures",
+                        "Audit of compliance processes",
+                        "Analysis of claims and provisioning"
+                    ],
+                    "kpis": [
+                        "Frequency and severity of claims",
+                        "Regulatory compliance rate",
+                        "Cost of operational risks",
+                        "Incident resolution time"
+                    ],
+                    "methodology": "Our experts combine qualitative and quantitative analyses, supported by high-performance digital tools, to anticipate risks, strengthen controls, and optimize corporate governance."
+                }
+            }
+        }
+    },
+    "TrainingPage": {
+        "hero": {
+            "title": "Expert Training for Finance Professionals",
+            "subtitle": "Stay ahead of industry trends with practical and customized training in risk, regulation, and financial innovation.",
+            "cta": "Request Training"
+        },
+        "programs": {
+            "title": "Training Programs",
+            "labels": {
+                "objectives": "Objectives",
+                "audience": "Audience",
+                "outcomes": "Expected Outcomes"
+            },
+            "items": {
+                "riskManagement": {
+                    "title": "Risk Management",
+                    "description": "Master strategies for credit, market, and operational risk aligned with international standards.",
+                    "objectives": "Develop skills to assess, measure, and mitigate financial risks with proven methodologies.",
+                    "audience": "Risk analysts, financial controllers, internal auditors, compliance officers.",
+                    "outcomes": "Understand and apply advanced risk management techniques in banking and finance."
+                },
+                "regulatoryCompliance": {
+                    "title": "Regulatory Compliance",
+                    "description": "Understand Basel III/IV, IFRS 9, ESG, and other critical regulations with practical applications.",
+                    "objectives": "Gain in-depth knowledge of regulatory frameworks and their effective implementation.",
+                    "audience": "Regulatory officers, auditors, CFOs, compliance professionals.",
+                    "outcomes": "Apply compliance rules with confidence and align operations with legal standards."
+                },
+                "financialModeling": {
+                    "title": "Financial Modeling",
+                    "description": "Develop practical modeling skills with Excel, Python, or R to support risk and finance decisions.",
+                    "objectives": "Create models to forecast performance, assess risks, and support strategic planning.",
+                    "audience": "Analysts, investment professionals, consultants, junior quants.",
+                    "outcomes": "Build robust models and automate financial workflows for faster and better decisions."
+                },
+                "dataAnalytics": {
+                    "title": "Data Science & Analytics",
+                    "description": "Use data science and BI tools to gain insights into financial performance and risk exposure.",
+                    "objectives": "Transform financial data into business insights with modern analytical tools.",
+                    "audience": "Data analysts, finance teams, innovation departments, risk managers.",
+                    "outcomes": "Use data visualization and predictive analysis to support strategic initiatives."
+                }
+            }
+        },
+        "outcomes": {
+            "title": "What You Will Gain",
+            "description": "Whether you are an analyst, manager, or executive, our training provides applicable frameworks, deep understanding, and a strategic advantage."
+        },
+        "cta": {
+            "title": "Ready to Train Your Team?",
+            "subtitle": "We tailor each session to your context. Let's discuss.",
+            "button": "Contact Us"
+        }
+    },
+    "BlogsPage": {
+        "title": "Finance Blog",
+        "description": "Discover our latest articles and financial advice."
     }
 }
