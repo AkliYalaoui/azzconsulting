@@ -11,7 +11,7 @@
         "blogs": "Blogs"
     },
     "Footer": {
-        "brand": "FinanceExpert",
+        "brand": "AzzConsulting",
         "description": "Conseils financiers, formations et accompagnement pour votre réussite.",
         "services": "Services",
         "consulting": "Conseils",
@@ -70,7 +70,8 @@
             "institutesTitle": "Organismes de formation",
             "institutesDesc": "Modules intensifs pour les professionnels de la finance, compliance et IT bancaire.",
             "proTrainingTitle": "Formations en entreprise",
-            "proTrainingDesc": "Accompagnement des équipes internes avec des parcours sur mesure et cas concrets."
+            "proTrainingDesc": "Accompagnement des équipes internes avec des parcours sur mesure et cas concrets.",
+            "learnMore": "En savoir plus"
         },
         "blog": {
             "title": "Blog & Actualités",

@@ -70,7 +70,8 @@
             "institutesTitle": "Training Organizations",
             "institutesDesc": "Intensive modules for finance professionals, compliance, and banking IT.",
             "proTrainingTitle": "Corporate Training",
-            "proTrainingDesc": "Supporting internal teams with customized programs and practical cases."
+            "proTrainingDesc": "Supporting internal teams with customized programs and practical cases.",
+            "learnMore": "Learn more"
         },
         "blog": {
             "title": "Blog & News",

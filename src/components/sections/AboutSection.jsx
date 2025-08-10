@@ -7,17 +7,17 @@ export default function AboutSection() {
 
   const highlights = [
     {
-      icon: <Briefcase className="w-7 h-7 text-blue-700" />,
+      icon: <Briefcase className="w-7 h-7 text-emerald-500" />,
       title: t("experience.title"),
       desc: t("experience.desc"),
     },
     {
-      icon: <Banknote className="w-7 h-7 text-blue-700" />,
+      icon: <Banknote className="w-7 h-7 text-emerald-500" />,
       title: t("markets.title"),
       desc: t("markets.desc"),
     },
     {
-      icon: <BookOpenCheck className="w-7 h-7 text-blue-700" />,
+      icon: <BookOpenCheck className="w-7 h-7 text-emerald-500" />,
       title: t("pedagogy.title"),
       desc: t("pedagogy.desc"),
     },
@@ -30,10 +30,10 @@ export default function AboutSection() {
     >
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
-          <h2 className="text-4xl font-extrabold text-blue-900 mb-4 tracking-tight">
+          <h2 className="text-4xl font-extrabold text-slate-800 mb-4 tracking-tight">
             {t("title")}
           </h2>
-          <p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
             {t("description")}
           </p>
         </div>
@@ -42,15 +42,15 @@ export default function AboutSection() {
           {highlights.map((item, i) => (
             <div
               key={i}
-              className="bg-white p-6 rounded-xl shadow-md border border-blue-100 hover:shadow-lg transition"
+              className="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition"
             >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="bg-blue-100 p-3 rounded-full">{item.icon}</div>
-                <h3 className="text-lg font-semibold text-blue-900">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <div className="bg-emerald-100 p-2 rounded-full">{item.icon}</div>
+                <h3 className="text-lg font-semibold text-slate-800">
                   {item.title}
                 </h3>
               </div>
-              <p className="text-gray-600 text-base">{item.desc}</p>
+              <p className="text-slate-500 text-base text-center">{item.desc}</p>
             </div>
           ))}
         </div>
@@ -58,7 +58,7 @@ export default function AboutSection() {
         <div className="mt-12">
           <Link
             href="/consulting"
-            className="inline-block text-blue-900 border border-blue-900 hover:bg-blue-900 hover:text-white transition px-6 py-3 rounded-full font-medium shadow-sm"
+            className="inline-block text-slate-800 border border-slate-800 hover:bg-slate-800 hover:text-white transition px-6 py-3 rounded-full font-medium shadow-sm"
           >
             {t("cta")}
           </Link>

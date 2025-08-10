@@ -18,8 +18,8 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4 text-white">{t("services")}</h4>
           <ul className="space-y-2">
-            <li><Link href="/services" className="hover:text-blue-400 transition">{t("consulting")}</Link></li>
-            <li><Link href="/formation" className="hover:text-blue-400 transition">{t("training")}</Link></li>
+            <li><Link href="/consulting" className="hover:text-blue-400 transition">{t("consulting")}</Link></li>
+            <li><Link href="/training" className="hover:text-blue-400 transition">{t("training")}</Link></li>
             <li><Link href="/blogs" className="hover:text-blue-400 transition">{t("blogs")}</Link></li>
           </ul>
         </div>

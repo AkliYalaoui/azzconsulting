@@ -1,37 +1,36 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import Image from "next/image";
 
 export default function Hero() {
   const t = useTranslations("HomePage.hero");
 
   return (
-    <section className="bg-gradient-to-r from-indigo-50 to-white py-28 px-6">
-      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
-        <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight text-indigo-900 leading-tight mb-6">
-            {t("title")}
-          </h1>
-          <p className="text-lg text-gray-600 max-w-xl leading-relaxed mb-8 mx-auto md:mx-0">
-            {t("subtitle")}
-          </p>
+    <section className="bg-gradient-to-br from-indigo-100 via-white to-emerald-50">
+      <div className="container mx-auto px-6 pt-28 pb-24 flex flex-col items-center text-center space-y-6">
+        
+        {/* Decorative Blobs for Depth */}
+        <div className="absolute top-20 left-0 w-80 h-80 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+
+        {/* Title */}
+        <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-800 leading-tight max-w-4xl">
+          {t("title")}
+        </h1>
+
+        {/* Subtitle */}
+        <p className="text-lg text-slate-500 max-w-2xl leading-relaxed">
+          {t("subtitle")}
+        </p>
+
+        {/* CTAs */}
+        <div className="flex flex-col sm:flex-row gap-4 pt-4">
           <Link
             href="/contact"
-            className="inline-block bg-indigo-700 text-white py-3 px-6 rounded-full font-semibold hover:bg-indigo-800 transition"
+            className="bg-slate-800 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-slate-700 transition"
           >
             {t("cta")}
           </Link>
-        </div>
-
-        <div className="md:w-1/2 flex justify-center">
-          <Image
-            src="/hero.svg"
-            alt="Hero Illustration"
-            width={500}
-            height={500}
-            className="drop-shadow-xl"
-            priority
-          />
+       
         </div>
       </div>
     </section>

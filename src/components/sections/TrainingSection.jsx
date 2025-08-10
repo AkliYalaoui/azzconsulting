@@ -9,8 +9,8 @@ export default function TrainingSection() {
     <section id="trainings" className="py-24 px-6 bg-gray-50 border-t border-gray-200">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-blue-900">{t("title")}</h2>
-          <p className="text-lg text-gray-600 mt-4">{t("preview")}</p>
+          <h2 className="text-4xl font-bold text-slate-800">{t("title")}</h2>
+          <p className="text-lg text-slate-500 mt-4">{t("preview")}</p>
         </div>
 
         <TrainingBlock
@@ -18,6 +18,7 @@ export default function TrainingSection() {
           description={t("universityDesc")}
           icon={GraduationCap}
           imagePosition="left"
+          more={t("learnMore")}
           href="/trainings#university"
         />
 
@@ -26,6 +27,7 @@ export default function TrainingSection() {
           description={t("institutesDesc")}
           icon={School}
           imagePosition="right"
+          more={t("learnMore")}
           href="/trainings#institutes"
         />
 
@@ -34,6 +36,7 @@ export default function TrainingSection() {
           description={t("proTrainingDesc")}
           icon={BriefcaseBusiness}
           imagePosition="left"
+          more={t("learnMore")}
           href="/trainings#pro"
         />
       </div>

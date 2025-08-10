@@ -6,8 +6,8 @@ import BlogPreviewSection from "@/components/sections/BlogPreviewSection";
 import ContactSection from "@/components/sections/ContactSection";
 import StatsSection from "@/components/sections/StatsSection";
 
-export default function Home() {
-
+export default async function Home({ params }) {
+  const { locale } = await params;
   return (
     <main className="min-h-screen bg-white text-gray-900 flex flex-col font-sans">
 
@@ -27,7 +27,7 @@ export default function Home() {
       <TrainingSection />
 
       {/* Blog Section */}
-      <BlogPreviewSection />
+      <BlogPreviewSection lang={locale} />
 
       {/* Contact Section */}
       <ContactSection />
