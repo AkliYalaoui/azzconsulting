@@ -6,7 +6,7 @@ import { POSTS_QUERY_DESC, POSTS_QUERY_ASC, POSTS_COUNT_QUERY } from '@/sanity/l
 import { client } from '@/sanity/lib/client';
 import { Link } from '@/i18n/navigation';
 
-const POSTS_PER_PAGE = 6;
+const POSTS_PER_PAGE = 10;
 
 export default function BlogPage() {
   const t = useTranslations('BlogPage');
@@ -73,13 +73,13 @@ export default function BlogPage() {
   return (
     <main>
       {/* HERO SECTION */}
-      <section className="bg-gradient-to-r from-indigo-50 to-white py-16 px-6">
+      <section className="bg-gradient-to-r from-emerald-50 to-amber-50 py-16 px-6">
         <div className="max-w-3xl mx-auto relative z-10">
-          <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight text-indigo-900 leading-tight mb-6">
+          <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight text-slate-800 leading-tight mb-6">
             {t('title')}
           </h1>
-          <p className="text-lg text-gray-600 max-w-xl leading-relaxed mb-8 mx-auto md:mx-0">
-            Strategic insights, market trends, and in-depth analysis from finance professionals.
+          <p className="text-lg text-slate-600 max-w-xl leading-relaxed mb-8 mx-auto md:mx-0">
+            {t('description')}
           </p>
         </div>
       </section>
@@ -92,12 +92,12 @@ export default function BlogPage() {
           placeholder={t('searchPlaceholder')}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="w-full md:w-1/2 px-5 py-3 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-900"
+          className="w-full md:w-1/2 px-5 py-3 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-800"
         />
         <select
           value={sort}
           onChange={(e) => setSort(e.target.value)}
-          className="px-5 py-3 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-900"
+          className="px-5 py-3 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-800"
         >
           <option value="desc">{t('newest')}</option>
           <option value="asc">{t('oldest')}</option>
@@ -138,15 +138,15 @@ export default function BlogPage() {
                 )}
                 <div className="p-6">
                   <p className="text-sm text-gray-500">{new Date(post.publishedAt).toLocaleDateString(locale)}</p>
-                  <h2 className="mt-2 text-2xl font-serif font-semibold text-gray-900 group-hover:text-[#14532d] transition-colors">
+                  <h2 className="mt-2 text-2xl font-serif font-semibold text-slate-800 group-hover:text-emerald-800 transition-colors">
                     {post.title}
                   </h2>
-                  <p className="mt-3 text-gray-600 line-clamp-3">{post.excerpt}</p>
+                  <p className="mt-3 text-slate-600 line-clamp-3">{post.excerpt}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     {post.tags?.map((tag) => (
                       <span
                         key={tag}
-                        className="px-3 py-1 text-sm border border-gray-300 rounded-full text-gray-600"
+                        className="px-3 py-1 text-sm border border-gray-300 rounded-full text-slate-600"
                       >
                         #{tag}
                       </span>
@@ -162,7 +162,7 @@ export default function BlogPage() {
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="mt-12 flex items-center justify-center gap-2 ">
+        <div className="my-12 flex items-center justify-center gap-2 ">
           <button
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
@@ -177,8 +177,8 @@ export default function BlogPage() {
                 key={n}
                 onClick={() => setPage(n)}
                 className={`px-3 py-2 rounded-lg border transition ${n === page
-                  ? 'bg-indigo-600 text-white border-indigo-600'
-                  : 'bg-white hover:bg-indigo-50'
+                  ? 'bg-emerald-600 text-white border-emerald-600'
+                  : 'bg-white hover:bg-emerald-50'
                   }`}
                 aria-current={n === page ? 'page' : undefined}
               >

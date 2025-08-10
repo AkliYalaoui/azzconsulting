@@ -33,7 +33,7 @@ export default function AboutSection() {
           <h2 className="text-4xl font-extrabold text-slate-800 mb-4 tracking-tight">
             {t("title")}
           </h2>
-          <p className="text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+          <p className="lg:text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
             {t("description")}
           </p>
         </div>

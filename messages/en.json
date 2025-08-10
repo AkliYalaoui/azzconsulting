@@ -267,14 +267,13 @@
     },
     "BlogPage": {
         "title": "Blog",
+        "description": "Explore our latest articles and insights on market trends.",
         "searchPlaceholder": "Search...",
         "allTags": "All Tags",
         "newest": "Newest First",
         "oldest": "Oldest First",
         "noResults": "No blog posts found.",
-        "tags": {
-            "finance": "Finance",
-            "risk": "Risk"
-        }
+        "prev": "Previous",
+        "next": "Next"
     }
 }

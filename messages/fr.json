@@ -267,14 +267,13 @@
     },
     "BlogPage": {
         "title": "Blog",
+        "description": "Découvrez nos derniers articles et analyses sur les tendances du marché.",
         "searchPlaceholder": "Recherche...",
         "allTags": "Toutes les catégories",
         "newest": "Les plus récents",
         "oldest": "Les plus anciens",
         "noResults": "Aucun article trouvé.",
-        "tags": {
-            "finance": "Finance",
-            "risk": "Risque"
-        }
+        "prev": "Précédent",
+        "next": "Suivant"
     }
 }
