@@ -3,24 +3,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+import { useActionState } from "react";
+import { MessageCircle, Mail, User, LoaderIcon } from "lucide-react";
+import sendEmail from "@/email/lib";
 
 export default function ContactPage() {
+  const [messages, formAction, isPending] = useActionState(sendEmail, null);
   const t = useTranslations('ContactPage');
-  const [status, setStatus] = useState('idle');
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    // Replace with API call or Formspree config
-    try {
-      await new Promise((res) => setTimeout(res, 1000));
-      setStatus('success');
-      e.currentTarget.reset();
-    } catch {
-      setStatus('error');
-    }
-  };
 
   return (
     <main className="bg-white min-h-screen py-20 px-6">
@@ -32,72 +21,129 @@ export default function ContactPage() {
           {t('subtitle')}
         </p>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1">
-                {t('form.name')}
-              </label>
-              <input
-                name="name"
-                type="text"
-                required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-700"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1">
-                {t('form.email')}
-              </label>
-              <input
-                name="email"
-                type="email"
-                required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-700"
-              />
-            </div>
+        {messages?.error && (
+          <div className=" bg-red-200 border border-red-800 text-slate-950 p-4 rounded-lg mb-6">
+            <p className="flex items-center">
+              <MessageCircle className="mr-2 text-red-800" />
+              <strong>{t("notM")}</strong>
+              {t("wrong")}
+            </p>
           </div>
+        )}
 
-          <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">
-              {t('form.subject')}
+        {messages?.success && (
+          <div className="max-w-4xl mx-auto bg-emerald-200 border border-emerald-800 text-emerald-950 p-4 rounded-lg mb-6">
+            <p className="flex items-center">
+              <Mail className="mr-2 text-emerald-800" />
+              <strong>{t("m")}</strong>
+              {t("getBack")}
+            </p>
+          </div>
+        )}
+        <form
+          action={formAction}
+          className="shadow-lg p-8  rounded-lg border-t-4 border-softpink bg-peach"
+        >
+          <div className="mb-4">
+            <label
+              htmlFor="name"
+              className="block text-coffee font-semibold mb-2"
+            >
+              <User className="inline mr-1 text-coffee" /> {t("name")}{" "}
+              <strong className="text-red-500">*</strong>
             </label>
             <input
-              name="subject"
               type="text"
+              id="name"
+              name="name"
+              className="w-full  px-4 py-2 rounded-md focus:outline-none focus:ring-1 focus:ring-coffee"
+              placeholder={t("namePlaceholder")}
               required
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-700"
             />
+            {messages?.name && (
+              <p className="mt-2 text-sm text-red-500">{t(messages?.name)}</p>
+            )}
           </div>
 
-          <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">
-              {t('form.message')}
+          <div className="mb-4">
+            <label
+              htmlFor="email"
+              className="block text-coffee font-semibold mb-2"
+            >
+              <Mail className="inline mr-1 text-coffee" /> {t("email")}{" "}
+              <strong className="text-red-500">*</strong>
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="w-full  px-4 py-2 rounded-md focus:outline-none focus:ring-1 focus:ring-coffee"
+              placeholder={t("emailPlaceholder")}
+              required
+            />
+            {messages?.email && (
+              <p className="mt-2 text-sm text-red-500">{t(messages?.email)}</p>
+            )}
+          </div>
+
+          <div className="mb-4">
+            <label
+              htmlFor="subject"
+              className="block text-coffee font-semibold mb-2"
+            >
+              <MessageCircle className="inline mr-1 text-coffee" />{" "}
+              {t("subject")} <strong className="text-red-500">*</strong>
+            </label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              className="w-full px-4 py-2 rounded-md focus:outline-none focus:ring-1 focus:ring-coffee"
+              placeholder={t("subjectPlaceholder")}
+              required
+            />
+            {messages?.subject && (
+              <p className="mt-2 text-sm text-red-500">{t(messages?.subject)}</p>
+            )}
+          </div>
+
+          <div className="mb-6">
+            <label
+              htmlFor="message"
+              className="block text-coffee font-semibold mb-2"
+            >
+              <MessageCircle className="inline mr-1 text-coffee" />{" "}
+              {t("message")} <strong className="text-red-500">*</strong>
             </label>
             <textarea
+              id="message"
               name="message"
-              rows={5}
+              rows="4"
+              className="w-full px-4 py-2 rounded-md focus:outline-none focus:ring-1 focus:coffee"
+              placeholder={t("messagePlaceholder")}
               required
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-slate-700"
             ></textarea>
+            {messages?.message && (
+              <p className="mt-2 text-sm text-red-500">{t(messages?.message)}</p>
+            )}
           </div>
 
-          <div>
-            <button
-              type="submit"
-              className="bg-emerald-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-emerald-800 transition"
-            >
-              {t('form.submit')}
-            </button>
-          </div>
-
-          {status === 'success' && (
-            <p className="text-green-600 mt-4">{t('form.success')}</p>
-          )}
-          {status === 'error' && (
-            <p className="text-red-600 mt-4">{t('form.error')}</p>
-          )}
+          <button
+            type="submit"
+            disabled={isPending}
+            className=" flex justify-center items-center bg-emerald-500 hover:bg-emerald-600 text-white font-semibold p-2 rounded-md transition-all focus:outline-none focus:ring-1 focus:ring-emerald-600 disabled:opacity-50 cursor-pointer"
+          >
+            {isPending ? (
+              <>
+                <LoaderIcon className="animate-spin mr-2" />{" "}
+                {t("sending")}
+              </>
+            ) : (
+              t("send")
+            )}
+          </button>
         </form>
+
       </div>
     </main>
   );

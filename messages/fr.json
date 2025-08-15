@@ -95,15 +95,28 @@
     "ContactPage": {
         "title": "Travaillons ensemble",
         "subtitle": "Contactez-nous pour une consultation personnalisée ou simplement pour dire bonjour. Nous répondons généralement sous 24 heures.",
-        "form": {
-            "name": "Votre Nom",
-            "email": "Votre Email",
-            "subject": "Sujet",
-            "message": "Votre Message",
-            "submit": "Envoyer le Message",
-            "success": "Merci ! Votre message a été envoyé.",
-            "error": "Oups ! Une erreur s'est produite. Veuillez réessayer."
-        }
+        "notM": "Le message n'a pas été envoyé",
+        "m": "Message envoyé avec succès",
+        "wrong": "! Désolé, quelque chose a mal tourné.",
+        "getBack": "! Nous vous répondrons dès que possible.",
+        "name": "Nom",
+        "namePlaceholder": "Entrez votre nom complet",
+        "email": "E-mail",
+        "emailPlaceholder": "Entrez votre adresse e-mail",
+        "subject": "Sujet",
+        "subjectPlaceholder": "Entrez le sujet de votre message",
+        "message": "Votre message",
+        "messagePlaceholder": "Tapez votre message ici...",
+        "sending": "Envoi en cours...",
+        "send": "Envoyer le message",
+        "name_required": "Le nom est requis",
+        "name_minLength": "Le nom doit comporter au moins 2 caractères",
+        "email_required": "L'email est requis",
+        "email_invalidEmail": "Veuillez entrer une adresse email valide",
+        "subject_required": "Le sujet est requis",
+        "subject_minLength": "Le sujet doit comporter au moins 5 caractères",
+        "message_required": "Le message est requis",
+        "message_minLength": "Le message doit comporter au moins 10 caractères"
     },
     "ConsultingPage": {
         "hero": {

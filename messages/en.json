@@ -95,15 +95,28 @@
     "ContactPage": {
         "title": "Let's Work Together",
         "subtitle": "Contact us for a personalized consultation or just to say hello. We typically respond within 24 hours.",
-        "form": {
-            "name": "Your Name",
-            "email": "Your Email",
-            "subject": "Subject",
-            "message": "Your Message",
-            "submit": "Send Message",
-            "success": "Thank you! Your message has been sent.",
-            "error": "Oops! An error occurred. Please try again."
-        }
+        "notM": "Message was not sent",
+        "m": "Message sent successfully",
+        "wrong": "! We are sorry, something went wrong.",
+        "getBack": "! We will get back to you as soon as possible.",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your Message",
+        "sending": "Sending...",
+        "send": "Send Message",
+        "namePlaceholder": "Enter your full name",
+        "emailPlaceholder": "Enter your email address",
+        "subjectPlaceholder": "Enter the subject of your message",
+        "messagePlaceholder": "Type your message here...",
+        "name_required": "Name is required",
+        "name_minLength": "Name must be at least 2 characters long",
+        "email_required": "Email is required",
+        "email_invalidEmail": "Please enter a valid email address",
+        "subject_required": "Subject is required",
+        "subject_minLength": "Subject must be at least 5 characters long",
+        "message_required": "Message is required",
+        "message_minLength": "Message must be at least 10 characters long"
     },
     "ConsultingPage": {
         "hero": {
