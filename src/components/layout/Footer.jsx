@@ -29,7 +29,6 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-4 text-white">{t("support")}</h4>
           <ul className="space-y-2">
             <li><Link href="/contact" className="hover:text-blue-400 transition">{t("contact")}</Link></li>
-            <li><Link href="/privacy" className="hover:text-blue-400 transition">{t("privacyPolicy")}</Link></li>
             <li><Link href="/terms" className="hover:text-blue-400 transition">{t("termsOfService")}</Link></li>
           </ul>
         </div>
@@ -37,9 +36,8 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h4 className="text-lg font-semibold mb-4 text-white">{t("contactInfo")}</h4>
-          <p>{t("email")}: <a href="mailto:consultant@example.com" className="hover:text-blue-400 transition">consultant@example.com</a></p>
-          <p>{t("phone")}: <a href="tel:+1234567890" className="hover:text-blue-400 transition">+1 234 567 890</a></p>
-          <p>{t("address")}</p>
+          <p>{t("email")}: <a href="mailto:azzboudjit@gmail.com" className="hover:text-blue-400 transition">azzboudjit@gmail.com</a></p>
+          <p>{t("phone")}: <a href="tel:+33699982152" className="hover:text-blue-400 transition">+33 6 99 98 21 52</a></p>
         </div>
       </div>
 

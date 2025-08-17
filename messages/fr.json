@@ -1,17 +1,17 @@
 {
     "Metadata": {
-        "title": "AzedConsulting",
-        "description": "AzedConsulting est une société de conseil qui fournit des services dans divers domaines."
+        "title": "AZConsulting",
+        "description": "AZConsulting est une société de conseil qui fournit des services dans divers domaines."
     },
     "Navbar": {
-        "home": "AzedConsulting",
+        "home": "AZConsulting",
         "consulting": "Conseils",
         "contact": "Contact",
         "training": "Formations",
         "blogs": "Blogs"
     },
     "Footer": {
-        "brand": "AzedConsulting",
+        "brand": "AZConsulting",
         "description": "Conseils financiers, formations et accompagnement pour votre réussite.",
         "services": "Services",
         "consulting": "Conseils",
@@ -47,7 +47,7 @@
             }
         },
         "hero": {
-            "title": "Dépasser les bons et atteindre l’excellence",
+            "title": "Dépasser les bons et devenir excellent",
             "subtitle": "Accompagnement stratégique en gestion des risques financiers pour institutions exigeantes , et formation professionnelle et universitaire. Plus de 20 ans d'expérience en finance de marché et gestion des risques.",
             "cta": "Demander une consultation"
         },

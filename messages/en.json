@@ -1,17 +1,17 @@
 {
     "Metadata": {
-        "title": "AzedConsulting",
-        "description": "AzedConsulting is a consulting company providing services in various fields."
+        "title": "AZConsulting",
+        "description": "AZConsulting is a consulting company providing services in various fields."
     },
     "Navbar": {
-        "home": "AzedConsulting",
+        "home": "AZConsulting",
         "consulting": "Consulting",
         "contact": "Contact",
         "training": "Training",
         "blogs": "Blogs"
     },
     "Footer": {
-        "brand": "AzedConsulting",
+        "brand": "AZConsulting",
         "description": "Financial advice, training, and support for your success.",
         "services": "Services",
         "consulting": "Consulting",
