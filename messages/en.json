@@ -1,17 +1,17 @@
 {
     "Metadata": {
-        "title": "Azz Consulting",
-        "description": "Azz Consulting is a consulting company providing services in various fields."
+        "title": "AzedConsulting",
+        "description": "AzedConsulting is a consulting company providing services in various fields."
     },
     "Navbar": {
-        "home": "AzzConsulting",
+        "home": "AzedConsulting",
         "consulting": "Consulting",
         "contact": "Contact",
         "training": "Training",
         "blogs": "Blogs"
     },
     "Footer": {
-        "brand": "FinanceExpert",
+        "brand": "AzedConsulting",
         "description": "Financial advice, training, and support for your success.",
         "services": "Services",
         "consulting": "Consulting",
@@ -39,7 +39,7 @@
             },
             "markets": {
                 "title": "Deep Expertise",
-                "desc": "Mastery of credit risk, market risk, regulatory (ACM), derivatives, and asset management."
+                "desc": "Mastery of credit risk, market risk, regulatory (ALM), derivatives, and asset management."
             },
             "pedagogy": {
                 "title": "Pedagogical Approach",
@@ -48,7 +48,7 @@
         },
         "hero": {
             "title": "Moving Beyond Good to Achieve Excellence",
-            "subtitle": "Strategic support in financial risk management for demanding institutions. Over 20 years of expertise in market finance and regulation.",
+            "subtitle": "Strategic support in financial risk management for demanding institutions, along with professional and academic training. Over 20 years of experience in market finance and risk management.",
             "cta": "Request a consultation"
         },
         "consulting": {
@@ -80,9 +80,11 @@
         },
         "stats": {
             "title": "Key Figures",
-            "experience": "Years of Experience",
-            "clients": "Clients Served",
-            "satisfaction": "Satisfaction Rate"
+            "experience": "Years in finance & risk",
+            "clients": "Institutional clients",
+            "satisfaction": "Academic satisfaction",
+            "teaching": "Over 10 years of teaching market finance at Paris-Dauphine University and IAE Business School in Paris",
+            "feedback": "Outstanding satisfaction from students and academic directors"
         },
         "contact": {
             "title": "Contact Us",

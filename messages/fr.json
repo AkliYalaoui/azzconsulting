@@ -1,17 +1,17 @@
 {
     "Metadata": {
-        "title": "Azz Consulting",
-        "description": "Azz Consulting est une société de conseil qui fournit des services dans divers domaines."
+        "title": "AzedConsulting",
+        "description": "AzedConsulting est une société de conseil qui fournit des services dans divers domaines."
     },
     "Navbar": {
-        "home": "AzzConsulting",
+        "home": "AzedConsulting",
         "consulting": "Conseils",
         "contact": "Contact",
         "training": "Formations",
         "blogs": "Blogs"
     },
     "Footer": {
-        "brand": "AzzConsulting",
+        "brand": "AzedConsulting",
         "description": "Conseils financiers, formations et accompagnement pour votre réussite.",
         "services": "Services",
         "consulting": "Conseils",
@@ -39,7 +39,7 @@
             },
             "markets": {
                 "title": "Expertise approfondie",
-                "desc": "Maîtrise des risques de crédit, de marché, réglementaires (ACM), produits dérivés et gestion d’actifs."
+                "desc": "Maîtrise des risques de crédit, de marché, réglementaires (ALM), produits dérivés et gestion d’actifs."
             },
             "pedagogy": {
                 "title": "Approche pédagogique",
@@ -48,7 +48,7 @@
         },
         "hero": {
             "title": "Dépasser les bons et atteindre l’excellence",
-            "subtitle": "Accompagnement stratégique en gestion des risques financiers pour institutions exigeantes. Plus de 20 ans d'expertise en finance de marché et réglementation.",
+            "subtitle": "Accompagnement stratégique en gestion des risques financiers pour institutions exigeantes , et formation professionnelle et universitaire. Plus de 20 ans d'expérience en finance de marché et gestion des risques.",
             "cta": "Demander une consultation"
         },
         "consulting": {
@@ -80,9 +80,11 @@
         },
         "stats": {
             "title": "Quelques chiffres",
-            "experience": "Années d’expérience",
-            "clients": "Clients accompagnés",
-            "satisfaction": "Taux de satisfaction"
+            "experience": "Années en finance et gestion des risques",
+            "clients": "Clients institutionnels",
+            "satisfaction": "Satisfaction académique",
+            "teaching": "Plus de 10 ans d’enseignement de la finance de marché à l’Université Paris-Dauphine et à l’IAE Business School de Paris",
+            "feedback": "Excellente satisfaction des étudiants et des responsables pédagogiques"
         },
         "contact": {
             "title": "Contactez-nous",
